@@ -14,7 +14,7 @@ export const CONFIG = {
   ENDPOINTS: {
     LOGIN: "/auth/login",
     REGISTER: "/auth/register",
-    CLIENTS: "/clients",
-    PRODUCTS: "/products",
+    CLIENTS: "/api/clients",
+    PRODUCTS: "/api/products",
   },
 } as const;
